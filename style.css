@@ -1,0 +1,270 @@
+*{
+    margin:0;
+
+}
+body{
+    background: black;
+}
+/*header{
+    background: chocolate;
+}*/
+
+nav{
+    margin-bottom: 10vh;
+    margin-top: 20px;
+   
+}
+.header{
+    color:darkgoldenrod;
+}
+.header:hover{
+    text-transform:uppercase;
+    color:white;}
+.div-nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-links{
+    list-style: none;
+
+    height: 100%;
+    align-items: center;
+    margin-left: auto;
+}
+
+button{
+    height: 100%;
+    padding: 30px;
+}
+
+#mainPhotoDiv{ 
+
+    display: flex;
+    justify-content: end;
+}
+
+strong{
+    color: darkgoldenrod;
+}
+
+
+.text{
+   
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+    font-weight: 700; 
+    font-size: 2.8em;
+}
+.navbar-nav > .nav-item >a .nav-link{
+    color: darkgoldenrod;
+}
+  #worksId {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+   
+}
+
+.linkToWorks{
+    background: black;
+}
+#demo{
+    margin:0;
+
+}
+
+
+article:hover{
+    color: darkgoldenrod;
+    transition: 0.5s;
+
+}
+
+.contactMe{
+    display: block;
+    list-style: none;
+}
+
+/*```````````````````Hamburger animation```````````````````````*/
+.hamburger.open  .line-2{
+ transform: translateX(-40px);
+ background: transparent;
+}
+.hamburger.open  .line-1{
+    transform: rotate(45deg)translate(6px, 6px);
+}
+.hamburger.open  .line-3{
+    transform: rotate(-45deg) translate(5px,-5px );
+}
+@media  only screen and (max-width :2460px){
+
+ .navbar-nav{
+     display: none;
+ }
+ .din-nav{
+     display: flex;
+ }
+ .nav-item{
+ list-style: none;
+
+ }
+
+ .line{
+     width: 40px;
+     height: 3px;
+     background: white;
+     margin: 5px;
+ }
+ nav{
+     position: relative;
+ }
+ .main-text{
+     line-height: 1.2;
+ }
+ .hamburger{
+   padding-bottom: 15px;
+     position: absolute;
+     cursor: pointer;
+     right: 3%;
+     z-index: 2;
+ }
+ .line:hover{
+ background:darkgoldenrod;
+}
+}
+
+
+@media  only screen and (max-width : 1200px){
+
+    .text{
+     
+       font-weight: 500; 
+       font-size: 2em;
+   }
+   
+
+@media only screen and (max-width : 992px){
+    .display-1 {
+        
+        font-weight: 300;
+        line-height: 1.2;
+        font-size: 3rem;
+    } 
+    #mainPhoto{
+    
+        width: 60%;
+        height: 60%;
+        margin-right: 20%;
+       
+    }
+   
+    strong{
+        font-weight: 300; 
+        font-size: 1em; 
+       }
+       .h3{
+           font-size: 1.3rem;;
+       }
+       .nav-link{
+        font-size: 0.8rem;
+        font-weight:300;
+       }
+}
+@media only  screen and (max-width : 858px){
+    
+ ul{ 
+     top:0;
+      right: 0;
+      position: fixed;
+      width:210px;
+      height: 100vh;
+      background: black;
+      text-align: center;
+      top:100px;
+    
+      transition: all .5s;
+
+ }
+.div-nav{
+     display:block;
+     width:100%;
+   justify-content: end;
+ }
+ nav .div-nav ul li{
+     display: block;
+    
+ }
+ 
+ .nav-link{
+     width:100%;
+     display: block;
+    font-size:16px;
+    font-weight:200;
+    justify-content: end;
+  
+   }
+.header:hover{
+    background: darkgoldenrod;
+    color: white;
+}
+.hamburger{
+    right: 10%;
+}
+
+
+}
+@media only  screen and (max-width : 768px){
+ #mainPhoto{
+    
+     width: 40%;
+     height: 40%;
+     margin-right: 50%;
+    
+ }
+
+
+ 
+ .text{
+     
+    line-height: 1.6;  
+    justify-content: center;
+    font-weight: 300; 
+    font-size: 1.2em;
+   
+}
+strong{
+    font-weight: 300; 
+    font-size: 1em; 
+   }
+  .h1{
+      font-size: 1.5rem;
+  }
+  h1{
+      font-size: 1em;
+  }
+
+}
+@media only  screen and (max-width : 576px){
+   
+    .text{
+       
+        justify-content: center;
+        font-weight: 300; 
+        font-size: 1em;
+        line-height: 1.6;
+       
+    }
+    
+    .h2{
+        font-size: 1.3rem;
+    }
+   
+     
+}
+@media only  screen and (max-width : 440px){
+    .h1{
+        font-size: 1rem;
+    }
+    
+}

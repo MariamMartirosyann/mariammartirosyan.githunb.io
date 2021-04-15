@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background: black;
+}
+div {
+    position: fixed;
+    color: white;
+    margin: 2px;
+   
+}
+div .col{
+    position: relative;
+    display: inline;
+}
+ .doska{
+    top:50%;
+    left: 50%;
+    
+    color: #000;
+    background: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  border-radius: 10%;
+}
+h1 p button{
+    justify-content: center;
+    display: block;
+}
+div .one{
+   
+    display: block;
+    position: static;
+    text-align: center;
+}
+div .one h1{
+    color: black;
+}
+#main{
+background: white;
+    height: 200px;
+    width: 700px;
+    align-items: center;
+}
+p{
+    color: grey;
+}
+button{
+background: blue;
+color:white;
+width:90%;
+height: 60px;
+text-align: center;
+padding: 2;
+margin: auto  ;
+border-radius: 50px;
+
+}
